@@ -1,0 +1,11 @@
+Package: stlr
+Type: Package
+Title: Provides implementations for deque, sorted multiset, and bihash for a pair of ordered multisets. 
+Version: 1.0
+Date: 2020-05-12
+Author: Daniel Grose
+Maintainer: Daniel Grose <daniel.grose@mathsbox.com>
+Description: Provides implementations for deque, sorted multiset, and bihash for a pair of ordered multisets. The package provides the standard algorithms for these data structures for examples insert, erase, clear, pop, push, front, back max, min, range, lower bound and upper bound. The data structured support all combinations of numeric and character.
+License: GPL (>= 2)
+Imports: methods, Rcpp (>= 1.0.4)
+LinkingTo: Rcpp,BH
